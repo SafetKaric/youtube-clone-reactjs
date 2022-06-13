@@ -1,4 +1,17 @@
 import Video from './Video'
+import pic1 from '../../assets/images/BigBuckBunny.jpg'
+import pic2 from '../../assets/images/ElephantsDream.jpg'
+import pic3 from '../../assets/images/ForBiggerBlazes.jpg'
+import pic4 from '../../assets/images/ForBiggerEscapes.jpg'
+import pic5 from '../../assets/images/ForBiggerFun.jpg'
+import pic6 from '../../assets/images/ForBiggerJoyrides.jpg'
+import pic7 from '../../assets/images/ForBiggerMeltdowns.jpg'
+import pic8 from '../../assets/images/Sintel.jpg'
+import pic9 from '../../assets/images/SubaruOutbackOnStreetAndDirt.jpg'
+import pic10 from '../../assets/images/TearsOfSteel.jpg'
+import pic11 from '../../assets/images/VolkswagenGTIReview.jpg'
+import pic12 from '../../assets/images/WeAreGoingOnBullrun.jpg'
+import pic13 from '../../assets/images/WhatCarCanYouGetForAGrand.jpg'
 
 const listOfVideos = [
     {
@@ -8,7 +21,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
         ],
         subtitle: 'By Blender Foundation',
-        thumb: './images/BigBuckBunny.jpg',
+        thumb: pic1,
         title: 'Big Buck Bunny',
     },
     {
@@ -17,7 +30,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4',
         ],
         subtitle: 'By Blender Foundation',
-        thumb: './images/ElephantsDream.jpg',
+        thumb: pic2,
         title: 'Elephant Dream',
     },
     {
@@ -27,7 +40,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4',
         ],
         subtitle: 'By Google',
-        thumb: './images/ForBiggerBlazes.jpg',
+        thumb: pic3,
         title: 'For Bigger Blazes',
     },
     {
@@ -37,7 +50,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4',
         ],
         subtitle: 'By Google',
-        thumb: './images/ForBiggerEscapes.jpg',
+        thumb: pic4,
         title: 'For Bigger Escape',
     },
     {
@@ -47,7 +60,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4',
         ],
         subtitle: 'By Google',
-        thumb: './images/ForBiggerFun.jpg',
+        thumb: pic5,
         title: 'For Bigger Fun',
     },
     {
@@ -57,7 +70,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4',
         ],
         subtitle: 'By Google',
-        thumb: './images/ForBiggerJoyrides.jpg',
+        thumb: pic6,
         title: 'For Bigger Joyrides',
     },
     {
@@ -67,7 +80,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4',
         ],
         subtitle: 'By Google',
-        thumb: './images/ForBiggerMeltdowns.jpg',
+        thumb: pic7,
         title: 'For Bigger Meltdowns',
     },
     {
@@ -77,7 +90,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
         ],
         subtitle: 'By Blender Foundation',
-        thumb: './images/Sintel.jpg',
+        thumb: pic8,
         title: 'Sintel',
     },
     {
@@ -87,7 +100,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/SubaruOutbackOnStreetAndDirt.mp4',
         ],
         subtitle: 'By Garage419',
-        thumb: './images/SubaruOutbackOnStreetAndDirt.jpg',
+        thumb: pic9,
         title: 'Subaru Outback On Street And Dirt',
     },
     {
@@ -97,7 +110,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
         ],
         subtitle: 'By Blender Foundation',
-        thumb: './images/TearsOfSteel.jpg',
+        thumb: pic10,
         title: 'Tears of Steel',
     },
     {
@@ -107,7 +120,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/VolkswagenGTIReview.mp4',
         ],
         subtitle: 'By Garage419',
-        thumb: './images/VolkswagenGTIReview.jpg',
+        thumb: pic11,
         title: 'Volkswagen GTI Review',
     },
     {
@@ -117,7 +130,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
         ],
         subtitle: 'By Garage419',
-        thumb: './images/WeAreGoingOnBullrun.jpg',
+        thumb: pic12,
         title: 'We Are Going On Bullrun',
     },
     {
@@ -127,7 +140,7 @@ const listOfVideos = [
             'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WhatCarCanYouGetForAGrand.mp4',
         ],
         subtitle: 'By Garage419',
-        thumb: './images/WhatCarCanYouGetForAGrand.jpg',
+        thumb: pic13,
         title: 'What care can you get for a grand?',
     },
 ]
