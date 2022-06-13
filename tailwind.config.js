@@ -13,12 +13,6 @@ module.exports = {
             '5xl': '1968px',
             '6xl': '2302px',
         },
-        backgroundImage: {
-            bg1: "url('./assets/images/bg1.png')",
-            bg2: "url('./assets/images/bg2.png')",
-            bg3: "url('./assets/images/bg3.png')",
-            bg4: "url('./assets/images/bg4.png')",
-        },
         extend: {
             colors: {
                 'yt-dark': '#202020',

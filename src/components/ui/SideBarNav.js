@@ -11,31 +11,31 @@ const SideBarNav = () => {
                     </li>
                     <li className="flex justify-center hover:bg-fields-hover-bg w-full py-3">
                         <a href="/" className="flex flex-col items-center">
-                            <i class="ri-compass-line text-xl"></i>
+                            <i className="ri-compass-line text-xl"></i>
                             <p className="text-[0.7rem]">Explore</p>
                         </a>
                     </li>
                     <li className="flex justify-center hover:bg-fields-hover-bg w-full py-3">
                         <a href="/" className="flex flex-col items-center">
-                            <i class="ri-play-circle-line text-xl"></i>
+                            <i className="ri-play-circle-line text-xl"></i>
                             <p className="text-[0.7rem]">Shorts</p>
                         </a>
                     </li>
                     <li className="flex justify-center hover:bg-fields-hover-bg w-full py-3">
                         <a href="/" className="flex flex-col items-center">
-                            <i class="ri-video-line text-xl"></i>
+                            <i className="ri-video-line text-xl"></i>
                             <p className="text-[0.7rem]">Subscriptions</p>
                         </a>
                     </li>
                     <li className="flex justify-center hover:bg-fields-hover-bg w-full py-3">
                         <a href="/" className="flex flex-col items-center">
-                            <i class="ri-folders-line text-xl"></i>
+                            <i className="ri-folders-line text-xl"></i>
                             <p className="text-[0.7rem]">Library</p>
                         </a>
                     </li>
                     <li className="flex justify-center hover:bg-fields-hover-bg w-full py-3">
                         <a href="/" className="flex flex-col items-center">
-                            <i class="ri-history-line text-xl"></i>
+                            <i className="ri-history-line text-xl"></i>
                             <p className="text-[0.7rem]">History</p>
                         </a>
                     </li>
