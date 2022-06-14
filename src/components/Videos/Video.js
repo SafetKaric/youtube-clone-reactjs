@@ -1,8 +1,40 @@
+import { useState } from 'react'
+
 const Video = (props) => {
+    const [isVideoHover, setIsVideoHover] = useState(false)
+    const [isContentHover, setIsContentHover] = useState(false)
     const { title, channell, thumbnail } = props
+
+    let classes = ''
+
+    if (isVideoHover) console.log('Video')
+    if (isContentHover) console.log('Content')
+
+    if (isContentHover) {
+        classes =
+            'bg-yt-btn-bg w-full min-w-[240px] max-w-[360px] text-white cursor-pointer'
+    } else {
+        classes =
+            'bg-yt-main-bg w-full min-w-[240px] max-w-[360px] text-white cursor-pointer'
+    }
+
     return (
-        <div className="bg-yt-main-bg w-full min-w-[240px] max-w-[360px] text-white cursor-pointer">
-            <div className="mb-2">
+        <div
+            onMouseEnter={() => setIsContentHover(true)}
+            onMouseLeave={() => setIsContentHover(false)}
+            className={classes}
+        >
+            <div
+                className="mb-2"
+                onMouseEnter={() => {
+                    setIsContentHover(true)
+                    setIsVideoHover(true)
+                }}
+                onMouseLeave={() => {
+                    setIsContentHover(false)
+                    setIsVideoHover(false)
+                }}
+            >
                 <img src={thumbnail} alt="bg1.png" />
             </div>
             <div className="flex">
